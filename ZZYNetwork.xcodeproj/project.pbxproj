@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00D9AD7066E0F1883476836 /* libPods-ZZYNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0A1EB38668BD40667A2E8A /* libPods-ZZYNetwork.a */; };
 		EDE456511F0910AD00A456CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456501F0910AD00A456CB /* main.m */; };
 		EDE456541F0910AD00A456CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456531F0910AD00A456CB /* AppDelegate.m */; };
 		EDE456571F0910AD00A456CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456561F0910AD00A456CB /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		EDE4565F1F0910AD00A456CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE4565D1F0910AD00A456CB /* LaunchScreen.storyboard */; };
 		EDE4566A1F0910AD00A456CB /* ZZYNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456691F0910AD00A456CB /* ZZYNetworkTests.m */; };
 		EDE456751F0910AD00A456CB /* ZZYNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456741F0910AD00A456CB /* ZZYNetworkUITests.m */; };
+		EDE456891F09111700A456CB /* ZZYHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456841F09111700A456CB /* ZZYHTTPService.m */; };
+		EDE4568A1F09111700A456CB /* ZZYHTTPTestService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456861F09111700A456CB /* ZZYHTTPTestService.m */; };
+		EDE4568B1F09111700A456CB /* ZZYUserInfoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456881F09111700A456CB /* ZZYUserInfoConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F7A764C0168986C38DE743 /* Pods-ZZYNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZYNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZYNetwork/Pods-ZZYNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		A9B49796F40C3007359F0AF8 /* Pods-ZZYNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZYNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZYNetwork/Pods-ZZYNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		DC0A1EB38668BD40667A2E8A /* libPods-ZZYNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZYNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE4564C1F0910AD00A456CB /* ZZYNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE456501F0910AD00A456CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDE456521F0910AD00A456CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,12 @@
 		EDE456701F0910AD00A456CB /* ZZYNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE456741F0910AD00A456CB /* ZZYNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYNetworkUITests.m; sourceTree = "<group>"; };
 		EDE456761F0910AD00A456CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE456831F09111700A456CB /* ZZYHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYHTTPService.h; sourceTree = "<group>"; };
+		EDE456841F09111700A456CB /* ZZYHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYHTTPService.m; sourceTree = "<group>"; };
+		EDE456851F09111700A456CB /* ZZYHTTPTestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYHTTPTestService.h; sourceTree = "<group>"; };
+		EDE456861F09111700A456CB /* ZZYHTTPTestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYHTTPTestService.m; sourceTree = "<group>"; };
+		EDE456871F09111700A456CB /* ZZYUserInfoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYUserInfoConfig.h; sourceTree = "<group>"; };
+		EDE456881F09111700A456CB /* ZZYUserInfoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYUserInfoConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00D9AD7066E0F1883476836 /* libPods-ZZYNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06DD28F0DD38B6FAF26CB045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0A1EB38668BD40667A2E8A /* libPods-ZZYNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6797AF1EEEFD6A10DCCFB30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9B49796F40C3007359F0AF8 /* Pods-ZZYNetwork.debug.xcconfig */,
+				06F7A764C0168986C38DE743 /* Pods-ZZYNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDE456431F0910AC00A456CB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				EDE456681F0910AD00A456CB /* ZZYNetworkTests */,
 				EDE456731F0910AD00A456CB /* ZZYNetworkUITests */,
 				EDE4564D1F0910AD00A456CB /* Products */,
+				C6797AF1EEEFD6A10DCCFB30 /* Pods */,
+				06DD28F0DD38B6FAF26CB045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +134,7 @@
 		EDE4564E1F0910AD00A456CB /* ZZYNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				EDE456821F09111700A456CB /* Network */,
 				EDE456521F0910AD00A456CB /* AppDelegate.h */,
 				EDE456531F0910AD00A456CB /* AppDelegate.m */,
 				EDE456551F0910AD00A456CB /* ViewController.h */,
@@ -140,6 +174,19 @@
 			path = ZZYNetworkUITests;
 			sourceTree = "<group>";
 		};
+		EDE456821F09111700A456CB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDE456831F09111700A456CB /* ZZYHTTPService.h */,
+				EDE456841F09111700A456CB /* ZZYHTTPService.m */,
+				EDE456851F09111700A456CB /* ZZYHTTPTestService.h */,
+				EDE456861F09111700A456CB /* ZZYHTTPTestService.m */,
+				EDE456871F09111700A456CB /* ZZYUserInfoConfig.h */,
+				EDE456881F09111700A456CB /* ZZYUserInfoConfig.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDE456791F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetwork" */;
 			buildPhases = (
+				1F688BBFAC3555EFAD99421B /* [CP] Check Pods Manifest.lock */,
 				EDE456481F0910AD00A456CB /* Sources */,
 				EDE456491F0910AD00A456CB /* Frameworks */,
 				EDE4564A1F0910AD00A456CB /* Resources */,
+				8980CCBA927F283E99FB4868 /* [CP] Embed Pods Frameworks */,
+				8AFE588A22583CC187FEAE85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +321,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F688BBFAC3555EFAD99421B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8980CCBA927F283E99FB4868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZYNetwork/Pods-ZZYNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFE588A22583CC187FEAE85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZYNetwork/Pods-ZZYNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDE456481F0910AD00A456CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE4568A1F09111700A456CB /* ZZYHTTPTestService.m in Sources */,
 				EDE456571F0910AD00A456CB /* ViewController.m in Sources */,
+				EDE4568B1F09111700A456CB /* ZZYUserInfoConfig.m in Sources */,
+				EDE456891F09111700A456CB /* ZZYHTTPService.m in Sources */,
 				EDE456541F0910AD00A456CB /* AppDelegate.m in Sources */,
 				EDE456511F0910AD00A456CB /* main.m in Sources */,
 			);
@@ -427,6 +528,7 @@
 		};
 		EDE4567A1F0910AD00A456CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B49796F40C3007359F0AF8 /* Pods-ZZYNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR9NK93Y23;
@@ -439,6 +541,7 @@
 		};
 		EDE4567B1F0910AD00A456CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F7A764C0168986C38DE743 /* Pods-ZZYNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BR9NK93Y23;
