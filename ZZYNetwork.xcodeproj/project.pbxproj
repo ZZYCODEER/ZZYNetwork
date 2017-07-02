@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE456511F0910AD00A456CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456501F0910AD00A456CB /* main.m */; };
+		EDE456541F0910AD00A456CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456531F0910AD00A456CB /* AppDelegate.m */; };
+		EDE456571F0910AD00A456CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456561F0910AD00A456CB /* ViewController.m */; };
+		EDE4565A1F0910AD00A456CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE456581F0910AD00A456CB /* Main.storyboard */; };
+		EDE4565C1F0910AD00A456CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE4565B1F0910AD00A456CB /* Assets.xcassets */; };
+		EDE4565F1F0910AD00A456CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE4565D1F0910AD00A456CB /* LaunchScreen.storyboard */; };
+		EDE4566A1F0910AD00A456CB /* ZZYNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456691F0910AD00A456CB /* ZZYNetworkTests.m */; };
+		EDE456751F0910AD00A456CB /* ZZYNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE456741F0910AD00A456CB /* ZZYNetworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE456661F0910AD00A456CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE456441F0910AC00A456CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE4564B1F0910AD00A456CB;
+			remoteInfo = ZZYNetwork;
+		};
+		EDE456711F0910AD00A456CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE456441F0910AC00A456CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE4564B1F0910AD00A456CB;
+			remoteInfo = ZZYNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE4564C1F0910AD00A456CB /* ZZYNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZYNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE456501F0910AD00A456CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE456521F0910AD00A456CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE456531F0910AD00A456CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE456551F0910AD00A456CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDE456561F0910AD00A456CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDE456591F0910AD00A456CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE4565B1F0910AD00A456CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE4565E1F0910AD00A456CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE456601F0910AD00A456CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE456651F0910AD00A456CB /* ZZYNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE456691F0910AD00A456CB /* ZZYNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYNetworkTests.m; sourceTree = "<group>"; };
+		EDE4566B1F0910AD00A456CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE456701F0910AD00A456CB /* ZZYNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZYNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE456741F0910AD00A456CB /* ZZYNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZYNetworkUITests.m; sourceTree = "<group>"; };
+		EDE456761F0910AD00A456CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE456491F0910AD00A456CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE456621F0910AD00A456CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE4566D1F0910AD00A456CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE456431F0910AC00A456CB = {
+			isa = PBXGroup;
+			children = (
+				EDE4564E1F0910AD00A456CB /* ZZYNetwork */,
+				EDE456681F0910AD00A456CB /* ZZYNetworkTests */,
+				EDE456731F0910AD00A456CB /* ZZYNetworkUITests */,
+				EDE4564D1F0910AD00A456CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE4564D1F0910AD00A456CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE4564C1F0910AD00A456CB /* ZZYNetwork.app */,
+				EDE456651F0910AD00A456CB /* ZZYNetworkTests.xctest */,
+				EDE456701F0910AD00A456CB /* ZZYNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE4564E1F0910AD00A456CB /* ZZYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				EDE456521F0910AD00A456CB /* AppDelegate.h */,
+				EDE456531F0910AD00A456CB /* AppDelegate.m */,
+				EDE456551F0910AD00A456CB /* ViewController.h */,
+				EDE456561F0910AD00A456CB /* ViewController.m */,
+				EDE456581F0910AD00A456CB /* Main.storyboard */,
+				EDE4565B1F0910AD00A456CB /* Assets.xcassets */,
+				EDE4565D1F0910AD00A456CB /* LaunchScreen.storyboard */,
+				EDE456601F0910AD00A456CB /* Info.plist */,
+				EDE4564F1F0910AD00A456CB /* Supporting Files */,
+			);
+			path = ZZYNetwork;
+			sourceTree = "<group>";
+		};
+		EDE4564F1F0910AD00A456CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDE456501F0910AD00A456CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE456681F0910AD00A456CB /* ZZYNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE456691F0910AD00A456CB /* ZZYNetworkTests.m */,
+				EDE4566B1F0910AD00A456CB /* Info.plist */,
+			);
+			path = ZZYNetworkTests;
+			sourceTree = "<group>";
+		};
+		EDE456731F0910AD00A456CB /* ZZYNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE456741F0910AD00A456CB /* ZZYNetworkUITests.m */,
+				EDE456761F0910AD00A456CB /* Info.plist */,
+			);
+			path = ZZYNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE4564B1F0910AD00A456CB /* ZZYNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE456791F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetwork" */;
+			buildPhases = (
+				EDE456481F0910AD00A456CB /* Sources */,
+				EDE456491F0910AD00A456CB /* Frameworks */,
+				EDE4564A1F0910AD00A456CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZYNetwork;
+			productName = ZZYNetwork;
+			productReference = EDE4564C1F0910AD00A456CB /* ZZYNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE456641F0910AD00A456CB /* ZZYNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE4567C1F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetworkTests" */;
+			buildPhases = (
+				EDE456611F0910AD00A456CB /* Sources */,
+				EDE456621F0910AD00A456CB /* Frameworks */,
+				EDE456631F0910AD00A456CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE456671F0910AD00A456CB /* PBXTargetDependency */,
+			);
+			name = ZZYNetworkTests;
+			productName = ZZYNetworkTests;
+			productReference = EDE456651F0910AD00A456CB /* ZZYNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE4566F1F0910AD00A456CB /* ZZYNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE4567F1F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetworkUITests" */;
+			buildPhases = (
+				EDE4566C1F0910AD00A456CB /* Sources */,
+				EDE4566D1F0910AD00A456CB /* Frameworks */,
+				EDE4566E1F0910AD00A456CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE456721F0910AD00A456CB /* PBXTargetDependency */,
+			);
+			name = ZZYNetworkUITests;
+			productName = ZZYNetworkUITests;
+			productReference = EDE456701F0910AD00A456CB /* ZZYNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE456441F0910AC00A456CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZHANGZHONGYANG;
+				TargetAttributes = {
+					EDE4564B1F0910AD00A456CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BR9NK93Y23;
+						ProvisioningStyle = Automatic;
+					};
+					EDE456641F0910AD00A456CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BR9NK93Y23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE4564B1F0910AD00A456CB;
+					};
+					EDE4566F1F0910AD00A456CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BR9NK93Y23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE4564B1F0910AD00A456CB;
+					};
+				};
+			};
+			buildConfigurationList = EDE456471F0910AC00A456CB /* Build configuration list for PBXProject "ZZYNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE456431F0910AC00A456CB;
+			productRefGroup = EDE4564D1F0910AD00A456CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE4564B1F0910AD00A456CB /* ZZYNetwork */,
+				EDE456641F0910AD00A456CB /* ZZYNetworkTests */,
+				EDE4566F1F0910AD00A456CB /* ZZYNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE4564A1F0910AD00A456CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE4565F1F0910AD00A456CB /* LaunchScreen.storyboard in Resources */,
+				EDE4565C1F0910AD00A456CB /* Assets.xcassets in Resources */,
+				EDE4565A1F0910AD00A456CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE456631F0910AD00A456CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE4566E1F0910AD00A456CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE456481F0910AD00A456CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE456571F0910AD00A456CB /* ViewController.m in Sources */,
+				EDE456541F0910AD00A456CB /* AppDelegate.m in Sources */,
+				EDE456511F0910AD00A456CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE456611F0910AD00A456CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE4566A1F0910AD00A456CB /* ZZYNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE4566C1F0910AD00A456CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE456751F0910AD00A456CB /* ZZYNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE456671F0910AD00A456CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE4564B1F0910AD00A456CB /* ZZYNetwork */;
+			targetProxy = EDE456661F0910AD00A456CB /* PBXContainerItemProxy */;
+		};
+		EDE456721F0910AD00A456CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE4564B1F0910AD00A456CB /* ZZYNetwork */;
+			targetProxy = EDE456711F0910AD00A456CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE456581F0910AD00A456CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE456591F0910AD00A456CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE4565D1F0910AD00A456CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE4565E1F0910AD00A456CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE456771F0910AD00A456CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE456781F0910AD00A456CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE4567A1F0910AD00A456CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE4567B1F0910AD00A456CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDE4567D1F0910AD00A456CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYNetwork.app/ZZYNetwork";
+			};
+			name = Debug;
+		};
+		EDE4567E1F0910AD00A456CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZYNetwork.app/ZZYNetwork";
+			};
+			name = Release;
+		};
+		EDE456801F0910AD00A456CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYNetwork;
+			};
+			name = Debug;
+		};
+		EDE456811F0910AD00A456CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BR9NK93Y23;
+				INFOPLIST_FILE = ZZYNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHANGZHONGYANG.ZZYNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZZYNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE456471F0910AC00A456CB /* Build configuration list for PBXProject "ZZYNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE456771F0910AD00A456CB /* Debug */,
+				EDE456781F0910AD00A456CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE456791F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE4567A1F0910AD00A456CB /* Debug */,
+				EDE4567B1F0910AD00A456CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE4567C1F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE4567D1F0910AD00A456CB /* Debug */,
+				EDE4567E1F0910AD00A456CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE4567F1F0910AD00A456CB /* Build configuration list for PBXNativeTarget "ZZYNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE456801F0910AD00A456CB /* Debug */,
+				EDE456811F0910AD00A456CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE456441F0910AC00A456CB /* Project object */;
+}
